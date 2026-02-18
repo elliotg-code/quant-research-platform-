@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quant-research-platform"
+version = "0.1.0"
+description = "Institutional-grade quantitative research framework"
+authors = [
+  {name = "Your Name"}
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib"
+]
+requires-python = ">=3.9"
